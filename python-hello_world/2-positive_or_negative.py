@@ -26,10 +26,3 @@ if 7 > 0:
     print("7 is positive")
 if 5 > 0:
     print("5 is positive")
-    
-
-
-
-
-
-    
