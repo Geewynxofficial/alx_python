@@ -1,2 +1,2 @@
 for num in range(99):
-    print("{} = 0*{:X}".format(num, num))
+    print("{} = 0x{:X}".format(num, num))
