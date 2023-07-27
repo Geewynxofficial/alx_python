@@ -1,3 +1,2 @@
 for num in range(99):
-    print("{} = 0x{:X}".format(num, num))
-    
+    print("{:d}, 0x{:02X}".format(num, num))
