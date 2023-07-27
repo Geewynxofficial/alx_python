@@ -1,2 +1,2 @@
 for num in range(99):
-    print("Decimal: {}, Hexadecimal: {:X}".format(num, num))
+    print("{} = 0*{:X}".format(num, num))
