@@ -14,4 +14,4 @@ def pow(a, b):
         base *= base
         exponent //= 2
 
-    return result if b >= 0 else 1 / result
+    return result if b >= 0 else 1 / result
