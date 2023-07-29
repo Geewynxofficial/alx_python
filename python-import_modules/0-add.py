@@ -11,3 +11,5 @@ add = add_module.add
 # Perform the addition and print the result
 result = add(a, b)
 print(f"{a} + {b} = {result}")
+def add(a, b):
+    return a + b
