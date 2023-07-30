@@ -1,20 +1,11 @@
-def add(a, b):
-  """
-  Adds two numbers.
+# Assign values to variables a and b
+a = 1
+b = 2
 
-  Args:
-    a: The first number to add.
-    b: The second number to add.
+# Import the add function from add_0.py
+add_module = __import__("add_0")
+add = add_module.add
 
-  Returns:
-    The sum of the two numbers.
-  """
-
-  return a + b
-
-
-if __name__ == "__main__":
-  a = 1
-  b = 2
-
-  print(f"{a} + {b} = {add(a, b)}")
+# Print the result of the addition
+result = add(a, b)
+print(f"{a} + {b} = {result}")
