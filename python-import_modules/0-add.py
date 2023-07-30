@@ -1,20 +1,6 @@
-def add(a, b):
-  """
-  Adds two numbers.
+import add_0
 
-  Args:
-    a: The first number to add.
-    b: The second number to add.
+a = 1
+b = 2
 
-  Returns:
-    The sum of the two numbers.
-  """
-
-  return a + b
-
-
-if __name__ == "__main__":
-  a = 1
-  b = 2
-
-  print(f"{a} + {b} = {add(a, b)}")
+print(f"{a} + {b} = {add_0.add(a, b)}")
