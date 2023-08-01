@@ -9,7 +9,7 @@ if __name__ == "__main__":
 
     if num_args > 0:
         # Print the list of arguments
-        print("Arguments:")
+        print("Arguments: {}".format(num_args))
 
         for i, arg in enumerate(sys.argv[1:], start=1):
             print("{}: {}".format(i, arg))
