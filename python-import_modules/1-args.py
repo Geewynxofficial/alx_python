@@ -15,5 +15,5 @@ if __name__ == "__main__":
             print("{}: {}".format(i, arg))
     else:
         # No arguments were passed
-        print(":")
+        print("{}".format(num_args))
 
