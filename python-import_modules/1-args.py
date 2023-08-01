@@ -2,7 +2,7 @@ import sys
 
 if __name__ == "__main__":
     # Get the number of arguments
-    num_args = len(sys.argv)   # The first element in sys.argv is the script name itself
+    num_args = len(sys.argv) - 1  # The first element in sys.argv is the script name itself
 
     # Print the number of arguments
     # print("{} argument:".format(num_args))
