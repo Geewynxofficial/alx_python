@@ -28,5 +28,5 @@ def print_arguments():
         for i, arg in enumerate(argv, 1):
             print(f"{i}: {arg}")
 
-if _name_ == "_main_":
+if __name__ == "_main_":
     print_arguments()
