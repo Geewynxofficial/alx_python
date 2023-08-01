@@ -10,4 +10,4 @@ def safe_print_division(a, b):
         return result
 a = 10
 b = 2
-result = safe_print_division(a, b)
+# result = safe_print_division(a, b)
