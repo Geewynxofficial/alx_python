@@ -16,7 +16,6 @@
 #     else:
 #         # No arguments were passed
 #         print("{} arguments.".format(num_args))
-
 import sys
 
 def print_arguments():
