@@ -2,8 +2,5 @@ class Square:
     def __init__(self, size):
         self.__size = size
 
-        @property
-        def size(self):
-            return self.__size
-        # square = Square(3)
-        # print(square.size)
+        def __repr__(self):
+            return f"Square({self.__size})"
