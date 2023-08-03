@@ -5,5 +5,5 @@ class Square:
         @property
         def size(self):
             return self.__size
-        square = Square(3)
-        print(square.size)
+        # square = Square(3)
+        # print(square.size)
