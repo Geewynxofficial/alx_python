@@ -4,7 +4,7 @@ class Square:
 
     def area(self):
         return self.__size ** 2
-    
+
     def perimeter(self):
         return 4 * self.__size
 
