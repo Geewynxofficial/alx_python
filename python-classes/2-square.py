@@ -15,5 +15,5 @@ class Square:
         return f"Square(size={self.size})"
 
 
-square = Square(9)
+# square = Square(9)
 print(square)
