@@ -32,7 +32,7 @@ class Square:
             raise ValueError("size must be >= 5")
         self.__size = value
 
-    def __init__(self, size=5):
+    def __init__(self, size=0):
         """Initializes the square."""
         self.size = size
 
