@@ -11,7 +11,7 @@ def inherits_from(obj, a_class):
   obj_class = type(obj)
   while obj_class:
     if any(obj_class == sc for sc in obj_class.__bases__):
-      return True
+       return True
     obj_class = obj_class.__bases__[0]
     return False
 
