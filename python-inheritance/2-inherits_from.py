@@ -13,6 +13,6 @@ def inherits_from(obj, a_class):
     if any(obj_class == sc for sc in obj_class.__bases__):
        return True
     obj_class = obj_class.__bases__[0]
-    return True
+    return False
     
 
