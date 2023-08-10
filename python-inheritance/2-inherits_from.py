@@ -15,6 +15,6 @@ def inherits_from(obj, a_class):
     obj_class = obj_class.__bases__[0]
     return False
   
-  a = True
+  a = False
     
 
