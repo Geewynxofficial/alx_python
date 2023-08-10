@@ -5,4 +5,4 @@ class BaseGeometry:
     """ 
 
     pass
-a = BaseGeometry
+a = BaseGeometry()
