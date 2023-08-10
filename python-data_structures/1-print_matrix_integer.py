@@ -11,7 +11,7 @@ def print_matrix_integer(matrix=[[]]):
 
   for row in matrix:
     for col in row:
-       print(f"{col:5d}", end=" ")
-       print("")
+       print("{0:5d}".format(col), end=" ")
+    #    print("")
 
 
