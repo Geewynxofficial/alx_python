@@ -8,10 +8,10 @@ def print_matrix_integer(matrix=[[]]):
   if not matrix:
     print("")
     return
-  
+
   for row in matrix:
     for col in row:
-       print("{0:5d}".format(col), end=" ")
+       print(f"{col:5d}", end=" ")
        print("")
 
 
