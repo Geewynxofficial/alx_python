@@ -17,5 +17,5 @@ class BaseGeometry(metaclass=BaseGeometryMeta):
             item for item in attributes if item != "__init_subclass__"]
         return new_attribute_list
     
-def BaseGeometry(self):
+def area(self):
     raise Exception("area() is not implemented")
