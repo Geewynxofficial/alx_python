@@ -48,6 +48,7 @@ class Rectangle(BaseGeometry):
         return self.__width * self.__height
     
 class Square(Rectangle):
+    """suare"""
     def __init__(self, size):
         self.__size = super().integer_validator("size", size)
         super().__init__(size, size)
