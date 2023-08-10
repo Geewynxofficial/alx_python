@@ -1,5 +1,8 @@
 """basegeometry"""
 class BaseGeometry:
-    """ base """ 
-    
+    """
+    base
+    """ 
+
     pass
+a = BaseGeometry
