@@ -4,4 +4,4 @@ class BaseGeometry:
     base
     """ 
     pass
-my_geometry = BaseGeometry
+my_geometry = BaseGeometry ()
