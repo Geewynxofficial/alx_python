@@ -1,7 +1,4 @@
 """basegeometry"""
-from collections.abc import Iterable
-
-
 class BaseGeometry:
     """
     base
