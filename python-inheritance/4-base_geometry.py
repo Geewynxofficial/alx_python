@@ -17,6 +17,6 @@ class BaseGeometry(metaclass=BaseGeometryMeta):
             item for item in attributes if item != "__init_subclass__"]
         return new_attribute_list
 class BaseGeometry(metaclass=BaseGeometryMeta):
-    # """ geo """
+    """ geo """
     def area(self):
         raise Exception("area() is not implemented")
