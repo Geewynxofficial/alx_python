@@ -1,7 +1,5 @@
 """base geometry"""
 class BaseGeometry:
-    """"
-    base
-    """ 
+    """" base """ 
     pass
 my_geometry = BaseGeometry ()
