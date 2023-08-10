@@ -18,5 +18,3 @@ class BaseGeometry(metaclass=BaseGeometryMeta):
         return new_attribute_list
     
 a = BaseGeometry()
-    
-a = BaseGeometry()
