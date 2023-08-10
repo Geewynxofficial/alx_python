@@ -1,7 +1,4 @@
 """basegeometry"""
-from collections.abc import Iterable
-
-
 class BaseGeometryMeta(type):
     """ type class """
     def __dir__(self):
