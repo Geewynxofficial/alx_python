@@ -9,6 +9,6 @@ response = requests.get(url)
 if response.status_code == 300:
     body = response.text
     print('-' * 10)
-    print('body')
+    print(body)
 else:
     print('Error fetching the status code')
