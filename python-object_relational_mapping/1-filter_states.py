@@ -18,7 +18,7 @@ if __name__ == "__main__":
     #     sys.exit(1)
 
     cursor = database.cursor()
-    cursor.execute("""SELECT * FROM states WHERE name LIKE BINARY 'N%'
+    cursor.execute("""SELECT * FROM states WHERE name LIKE BINARY 'N%' 
                    ORDER BY states.id """)
     rows = cursor.fetchall()
 
